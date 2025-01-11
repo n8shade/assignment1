@@ -273,9 +273,10 @@ nav ul li b {
     padding: 5px;
 }
 
-.main-news{
+.main-news {
     margin-bottom: 80px;
 }
+
 .rn {
     color: rgb(14, 14, 14);
     font-size: 32px;
@@ -337,4 +338,118 @@ nav ul li b {
     text-align: left;
     border-radius: 6px;
     background: rgb(0, 106, 80);
+}
+
+.donate {
+    gap: 17px;
+    text-align: center;
+    margin: 80px;
+}
+
+.donate>h2 {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.donate>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+}
+
+.don-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 130px;
+}
+
+.don-taka {
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 50px 0 rgba(14, 14, 14, 0.15);
+}
+
+.donate-btn {
+    border: none;
+    padding: 12px 20px;
+    gap: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+}
+
+.newsletter {
+    padding: 80px 100px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.nl-body {
+    text-align: center;
+    align-items: center;
+}
+
+.nl-body>h2 {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.nl-body>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.email-nl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-nl>input {
+    text-align: left;
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.email-nl>button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer>div {
+    color: rgb(14, 14, 14);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
 }
