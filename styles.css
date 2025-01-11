@@ -98,3 +98,65 @@ nav ul li b {
 .pbd-cards-content>p {
     margin-top: 15px;
 }
+
+.tvf {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+}
+
+.tvf>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.tvf-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.tvf-content {
+    padding: 27px;
+    width: 330px;
+    height: 220px;
+    box-shadow: 0 5px 50px 0 rgba(14, 14, 14, 0.15);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.tvf-content>h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+.tvf-content>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.tvf-btn {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: left;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+}
