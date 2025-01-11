@@ -160,3 +160,43 @@ nav ul li b {
     border-radius: 6px;
     border: none;
 }
+
+.yunus {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    gap: 20px;
+    margin-top: 30px;
+    box-shadow: 5px rgba(14, 14, 14, 0.15);
+}
+
+.y-content {
+    padding: 40px 18px;
+}
+
+.y-content-p1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.y-content-p2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+.y-content-p3 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
